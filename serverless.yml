@@ -25,7 +25,7 @@ functions:
     events:
       - http:
           method: get
-          path: /portfolios/{userId}
+          path: /{userId}/portfolios
           cors: true
 
   getPortfolioPositions:
